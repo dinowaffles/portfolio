@@ -1,4 +1,15 @@
+header {
+    background-image:url("../photos/headerbackground.jpeg")
+}
 
 h1 {
+    font-family: Rosario;
+}
+
+h2 {
+    font-family: Rosario;
+}
+
+h3 {
     font-family: Rosario;
 }
