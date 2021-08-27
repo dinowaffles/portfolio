@@ -1,15 +1,29 @@
+html {
+    font-size: 16px;
+}
+
 header {
-    background-image:url("../photos/headerbackground.jpeg")
+    padding-top: 130px;
+    background-image:url("/resources/photos/headerbackground.jpeg");
+    padding-bottom: 10px;
 }
 
 h1 {
     font-family: Rosario;
+    font-size: 4rem;
 }
 
 h2 {
     font-family: Rosario;
+    font-size: 2rem;
 }
 
 h3 {
     font-family: Rosario;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: "Shippori Mincho";
+    font-size: 1.5rem;
 }
