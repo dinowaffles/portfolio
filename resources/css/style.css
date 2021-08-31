@@ -54,6 +54,18 @@ li {
     display: inline-block;
 }
 
+a {
+    color: #033b31;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 footer {
     background:rgba(221, 123, 63, .5);
 }
