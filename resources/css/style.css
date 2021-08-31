@@ -5,7 +5,7 @@ html {
 header {
     padding-top: 130px;
     background-image:url("/resources/photos/headerbackground.jpeg");
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 h1 {
@@ -32,8 +32,21 @@ h2 {
     text-align: center;
 }
 
+p {
+    font-family: "Shippori Mincho";
+    font-size: 1.25rem;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .projects {
     text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    background:rgba(221, 123, 63, .5);
+    padding-bottom: 25px;
 }
 
 #contactinfo {
@@ -66,6 +79,4 @@ a:hover {
     font-weight: bold;
 }
 
-footer {
-    background:rgba(221, 123, 63, .5);
-}
+
