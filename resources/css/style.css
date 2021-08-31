@@ -15,17 +15,17 @@ h1 {
     text-align: center;
 }
 
+#jobtitle {
+    font-family: Rosario;
+    color: #DD7B3F;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
 h2 {
     font-family: Rosario;
     color: #033b31;
     font-size: 2rem;
-}
-
-h3 {
-    font-family: Rosario;
-    color: #DD7B3F;
-    font-size: 2rem;
-    text-align: center;
 }
 
 .about-me {
@@ -36,7 +36,24 @@ h3 {
     text-align: center;
 }
 
-h4 {
+#contactinfo {
+    font-family: Rosario;
+    color: #033b31;
+    font-size: 2rem;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
     font-family: "Shippori Mincho";
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    padding: 5px 45px 5px 0px;
+    display: inline-block;
+}
+
+footer {
+    background:rgba(221, 123, 63, .5);
 }
