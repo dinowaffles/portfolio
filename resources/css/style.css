@@ -8,6 +8,62 @@ header {
     padding-bottom: 25px;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    background-color:#fcfcfc;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color: #252954;
+    font-family: Rosario;
+    font-size: 2.5rem;
+}
+
+nav a {
+    color:#252954;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d6eaf2;
+    border-bottom: 2px solid #d6eaf2;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-family: Rosario;
+    font-size: 1.5rem;  
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+
+.hero img {
+    width: 30rem;
+}
+
+.bio {
+    width: 36rem;
+}
+
 h1 {
     font-family: Rosario;
     color: #DD7B3F;
@@ -24,11 +80,11 @@ h1 {
 
 h2 {
     font-family: Rosario;
-    color: #033b31;
+    color: #252954;
     font-size: 2rem;
 }
 
-.about-me {
+#about {
     text-align: center;
 }
 
@@ -39,7 +95,7 @@ p {
     padding-right: 40px;
 }
 
-.projects {
+#projects {
     text-align: center;
 }
 
